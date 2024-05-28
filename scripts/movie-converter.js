@@ -1,7 +1,8 @@
-import { movies } from './movie-data.js';
+import { movies } from './movies-data.js';
 
 export const generateMoviesHTML = () => {
     let movieHTML = '';
+ 
     for (const movie of movies) {
         movieHTML += `
             <article class="movie">
